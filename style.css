@@ -1,0 +1,106 @@
+:root {
+    --dark-bg: #1a1a2e;
+    --green: #4ade80;
+    --purple: #8b5cf6;
+    --grey: #d1d5db;
+    --white: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--dark-bg);
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: var(--green);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+    nav a:hover {
+        color: var(--purple);
+        text-shadow: 0 0 5px var(--purple);
+    }
+
+#hero {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+#gremlin-avatar {
+    width: 200px;
+    height: 200px;
+    background-color: var(--green);
+    border-radius: 50%;
+    margin: 2rem auto;
+    /* Replace with actual gremlin image */
+}
+
+#content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+    #content > div {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        padding: 1rem;
+        margin: 1rem;
+        flex: 1;
+        min-width: 250px;
+    }
+
+#daily-tip {
+    background-color: var(--purple);
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    text-align: center;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.rainbow-border {
+    height: 5px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#hidden-gremlin {
+    position: fixed;
+    bottom: -50px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: url(gremlin-icon.png) no-repeat;
+    background-size: contain;
+    transition: bottom 0.3s;
+}
