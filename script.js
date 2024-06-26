@@ -42,7 +42,7 @@ function addHiddenGremlin() {
     gremlin.style.right = '20px';
     gremlin.style.width = '50px';
     gremlin.style.height = '50px';
-    gremlin.style.background = 'url(gremlin-icon.png) no-repeat';
+    gremlin.style.background = 'url(/images/gremlin-icon.png) no-repeat';
     gremlin.style.backgroundSize = 'contain';
     gremlin.style.transition = 'bottom 0.3s';
     document.body.appendChild(gremlin);
