@@ -20,11 +20,11 @@ function createRainbowBorder() {
 
 // Daily Gremlin Tip
 const tips = [
-    "Always feed your gremlin after midnight for extra fun!",
-    "Gremlins love water slides. Build one in your living room!",
-    "Train your gremlin to do your taxes. Results may vary.",
-    "Gremlin fur makes excellent toast topping. Not recommended for consumption.",
-    "For a unique holiday, take your gremlin skydiving!"
+    "Always feed your gremlin after midnight for extra fun!*%0D%0A%0D%0A*The Gremlin Group is not responsible for any damages to your persons or property.",
+    "Gremlins love water, be sure to bathe them regularly!*%0D%0A%0D%0A*The Gremlin Group is not responsible for any damages caused by additional Gremlin spawn.",
+    "Train your gremlin to do your taxes.*%0D%0A%0D%0A*The Gremlin Group is not responsible for any damages to your personal finances.",
+    "Remember Gremlin's to keep your Gremlin out of direct sunlight.*%0D%0A%0D%0A*The Gremlin Group will hold you responsible for any damages to your Gremlin.",
+    "For a unique gift idea, send your loved ones a gremlin!*%0D%0A%0D%0A*The Gremlin Group is not responsible for any damages to your personal relationships."
 ];
 
 function updateDailyTip() {
