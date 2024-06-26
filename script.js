@@ -37,7 +37,7 @@ function updateDailyTip() {
 function addHiddenGremlin() {
     const gremlin = document.createElement('div');
     gremlin.id = 'hidden-gremlin';
-    gremlin.style.position = 'fixed';
+    gremlin.style.position = 'sticky';
     gremlin.style.bottom = '-50px';
     gremlin.style.right = '20px';
     gremlin.style.width = '50px';
