@@ -95,7 +95,7 @@ footer {
 }
 
 #hidden-gremlin {
-    position: fixed;
+    position: sticky;
     bottom: -50px;
     right: 20px;
     width: 50px;
