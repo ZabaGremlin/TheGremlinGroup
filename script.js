@@ -20,7 +20,7 @@ function createRainbowBorder() {
 
 // Daily Gremlin Tip
 const tips = [
-    "Always feed your gremlin after midnight for extra fun!* <br><br><small>*The Gremlin Group is not responsible for any damages to your persons or property.</small>",
+    "Always feed your gremlin after midnight for extra fun!*"+"<br><br>"+"<small>*The Gremlin Group is not responsible for any damages to your persons or property.</small>",
     "Gremlins love water, be sure to bathe them regularly!* <br><br><small>*The Gremlin Group is not responsible for any damages caused by additional Gremlin spawn.</small>",
     "Train your gremlin to do your taxes.* <br><br><small>*The Gremlin Group is not responsible for any damages to your personal finances.</small>",
     "Remember Gremlin's to keep your Gremlin out of direct sunlight.* <br><br><small>*The Gremlin Group will hold you responsible for any damages to your Gremlin.</small>",
