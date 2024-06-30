@@ -1,7 +1,7 @@
 {
-  "bot_token": "YOUR_BOT_TOKEN_HERE",
-  "guild_id": 123456789012345678,
-  "channel_id": 876543210987654321,
+  "bot_token": "MTI1NzAyMzkwOTU5MzYxNjUyNA.GQUc7e.QsMofWrAAsT2cLGHqP8BzgvT1zBT9hL3NPCrC8",
+  "guild_id": 1256432801490800650,
+  "channel_id": 1257034584957386773,
   "file_paths": {
     "base_dir": "",
     "gremlin_data_file": "gremlin_data.json",
